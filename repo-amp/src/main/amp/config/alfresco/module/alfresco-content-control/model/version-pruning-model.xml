@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="prune:versionPruningModel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+    <description>Version Pruning Content Model</description>
+    <author>Kyle Adams</author>
+    <version>1.0</version>
+
+    <imports>
+        <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d" />
+        <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+    </imports>
+
+    <namespaces>
+        <namespace uri="http://www.alfresco.org/model/extension/version-pruning/1.0" prefix="prune" />
+    </namespaces>
+
+    <aspects>
+        <!-- Version Prunable Aspect -->
+        <aspect name="prune:versionPrunable">
+            <title>Version Prunable</title>
+            <properties>
+                <property name="prune:maxVersionCount">
+                    <title>Max Version Count</title>
+                    <description>Max Version Count</description>
+                    <type>d:int</type>
+                    <default>-1</default>
+                </property>
+                <property name="prune:keepRootVersion">
+                    <title>Keep Root Version</title>
+                    <description>Keep Root Version</description>
+                    <type>d:boolean</type>
+                    <default>1024</default>
+                </property>
+            </properties>
+        </aspect>
+    </aspects>
+</model>

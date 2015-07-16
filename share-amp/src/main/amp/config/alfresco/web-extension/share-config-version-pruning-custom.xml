@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<alfresco-config>
+	<config evaluator="string-compare" condition="DocumentLibrary">
+		<!-- ============================================================== -->
+		<!-- Content type overrides -->
+		<types>
+			<type name="cm:folder">
+      </type>
+			<type name="cm:content">
+			</type>
+		</types>
+		<!-- ============================================================== -->
+		<!-- Aspects -->
+		<aspects>
+			<visible>
+				<aspect name="prune:versionPrunable"/>
+			</visible>
+		</aspects>
+	</config>
+	<config evaluator="aspect" condition="prune:versionPrunable">
+		<forms>
+			<form>
+				<field-visibility>
+					<show id="prune:maxVersionCount"/>
+					<show id="prune:keepRootVersion"/>
+				</field-visibility>
+				<appearance>
+					<set id="version-pruning-information-group" appearance="bordered-panel" label="Version Pruning Information"/>
+					<field id="prune:maxVersionCount" set="version-pruning-information-group"/>
+					<field id="prune:keepRootVersion" set="version-pruning-information-group"/>
+				</appearance>
+			</form>
+		</forms>
+	</config>
+</alfresco-config>

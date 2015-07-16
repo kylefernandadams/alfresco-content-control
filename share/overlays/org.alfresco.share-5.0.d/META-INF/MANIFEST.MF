@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Implementation-Title: Alfresco Share WAR Community
+Implementation-Version: 5.0.d
+Class-Path: share-amp-1.0-SNAPSHOT.amp selenium-java-2.45.0-alfresco.j
+ ar selenium-chrome-driver-2.45.0-alfresco.jar selenium-remote-driver-
+ 2.45.0-alfresco.jar cglib-nodep-2.1_3.jar gson-2.3.1.jar selenium-api
+ -2.45.0-alfresco.jar guava-18.0.jar selenium-htmlunit-driver-2.45.0-a
+ lfresco.jar htmlunit-2.15.jar xalan-2.7.2.jar serializer-2.7.2.jar co
+ mmons-collections-3.2.1.jar commons-lang3-3.3.2.jar httpmime-4.3.3.ja
+ r commons-codec-1.10.jar htmlunit-core-js-2.15.jar xercesImpl-2.10.0-
+ alfresco-patched.jar xml-apis-1.4.01.jar nekohtml-1.9.21.jar cssparse
+ r-0.9.14.jar sac-1.3.jar commons-logging-1.2.jar jetty-websocket-8.1.
+ 15.v20140411.jar jetty-util-8.1.15.v20140411.jar jetty-io-8.1.15.v201
+ 40411.jar jetty-http-8.1.15.v20140411.jar httpclient-4.3.6.jar httpco
+ re-4.3.3.jar selenium-firefox-driver-2.45.0-alfresco.jar commons-io-2
+ .4.jar commons-exec-1.3.jar selenium-ie-driver-2.45.0-alfresco.jar jn
+ a-3.4.0.jar platform-3.4.0.jar selenium-safari-driver-2.45.0-alfresco
+ .jar selenium-support-2.45.0-alfresco.jar webbit-0.4.14.jar netty-3.5
+ .2.Final.jar selenium-leg-rc-2.45.0-alfresco.jar
+Built-By: build
+Specification-Vendor: Alfresco Software
+Created-By: Apache Maven 3.2.5
+Implementation-URL: http://www.alfresco.org/projects/share/
+Build-Date: 2015-03-19T18:45:34Z
+Implementation-Vendor: Alfresco Software
+Implementation-Vendor-Id: org.alfresco
+Build-Jdk: 1.8.0_40
+Specification-Title: Alfresco Share WAR Community
+Specification-Version: 5.0.0
+Archiver-Version: Plexus Archiver
+

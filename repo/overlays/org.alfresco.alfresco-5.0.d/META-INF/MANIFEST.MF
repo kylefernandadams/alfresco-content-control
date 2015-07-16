@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Implementation-Title: Alfresco Repository WAR Community
+Implementation-Version: 5.0.d
+Class-Path: repo-amp-1.0-SNAPSHOT.amp
+Built-By: build
+Specification-Vendor: Alfresco Software
+Created-By: Apache Maven 3.2.5
+Implementation-URL: http://www.alfresco.org/projects/alfresco/
+Build-Date: 2015-03-19T18:45:34Z
+Implementation-Vendor: Alfresco Software
+Implementation-Vendor-Id: org.alfresco
+Build-Jdk: 1.8.0_40
+Specification-Title: Alfresco Repository WAR Community
+Specification-Version: 5.0.0
+Archiver-Version: Plexus Archiver
+
