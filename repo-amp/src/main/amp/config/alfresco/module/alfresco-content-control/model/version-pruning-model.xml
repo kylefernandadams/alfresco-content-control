@@ -28,7 +28,6 @@
                     <title>Keep Root Version</title>
                     <description>Keep Root Version</description>
                     <type>d:boolean</type>
-                    <default>1024</default>
                 </property>
             </properties>
         </aspect>
